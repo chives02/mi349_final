@@ -1,4 +1,6 @@
 # mi349_final
-[MI349 Individualized Portfolio Pitchboard.pdf](https://github.com/chives02/mi349_final/files/7696406/MI349.Individualized.Portfolio.Pitchboard.pdf)
 
- Note: the Pitchboard includes a wireframe and a flow within it! 
+[MI349 Individualized Portfolio Pitchboard (1).pdf](https://github.com/chives02/mi349_final/files/7696417/MI349.Individualized.Portfolio.Pitchboard.1.pdf)
+
+
+ Note: the Pitchboard includes a wireframe, a comp and a flow within it! 
