@@ -1,131 +1,209 @@
-html  {background-color: rgb(248, 172, 32);}
+body {
+    background: #1B1B25;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+  }
+  
 
+img {
 
-
-article
-{
-
-padding: 20px; 
-margin: 20px;
-
+    width: 100%;
 
 }
 
-div.HAL
-{
-    position: relative;
-    top: -80px;
-    float: right;
-    margin-left: auto;
+.card {
+
+    background-color:rgb(104, 98, 98);
+    border-radius: 20px;
+    margin: 0 auto;    
+    width: 900px; 
     text-align: center;
-    font-style: italic;
-    font-size: smaller;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 10px;
+
+
+
+}
+
+.card .profile 
+
+{
+
+    width: 175px;
+    border-radius: 50%;
+    margin-top: -50px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 10px 10px;
+
+
+
+
+
+}
+
+.contacts {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.contacts ul {
+
+    width: 30px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 10px;
+
+
+
+}
+
+h1 {
+
+        margin: 15px; 
+        font-weight: 100;
+       color: rgb(255, 255, 255);
+        
+
+}
+
+h2 {
+
+
+margin: 0;
+font-weight: 100;
+color: rgb(180, 178, 178);
+
+
+}
+
+    p {
+      font-size: 1.6rem;
+      letter-spacing: .2rem; 
+      text-align: center;
+    }
+
+    li {
+
+        font-size: 1.6rem;
+      letter-spacing: .2rem; 
+
+
+    }
+  
+
+
+    .button {
+
+        height: 50px;
+        width: 150px;
+        background-color:grey;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        float:left;
+        margin-top: 1px;
+        margin-right: 2px;
+        position: absolute;
+        top: 0;
+        right:0;
+        display: inline;
+        
     
+    } 
 
 
-} 
+    .next_button {
 
-
- 
-
-.button {
-
-    height: 50px;
-    width: 150px;
-    background-color:sienna;
-    font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    float:left;
-    margin-right: 5px;
-    display: inline;
+        height: 50px;
+        width: 150px;
+        background-color:grey;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        float:left;
+        margin-top: 1px;
+        margin-right: 175px;
+        position: absolute;
+        top: 0;
+        right:0;
+        display: inline;
+        
     
-
-}
-
-.final_button {
-
-    height: 50px;
-    width: 150px;
-    background-color:sienna;
-    font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    display: inline;
-
-}
-
-.button:hover {
-background-color:darkred;
-color: #fff; 
-}
+    }
 
 
-.final_button:hover {
+    .button:hover {
     background-color:darkred;
     color: #fff; 
     }
 
-
-body {
-
-    background-color: rgb(248, 172, 32);
-    font-family: 'Times New Roman', Times, serif; 
-    
-    
-
-    
-}
-
-p {line-height: 1.1em ;}
-
-#post { border-top: 1px dotted gray; }
-
-
-h2 {font-size: larger;}
-
-
-#comments { 
-    
-    position: relative;
-    top: 50px; }
-
-
-    input[type="submit"] {
-        padding: 2px 10px;
-        border: 1px solid #804040;
-        background:rgb(216, 81, 19); 
-        font-family: 'Times New Roman', Times, serif;
-        position: relative; 
-        top: 35px; 
-         
-    }
-    
-    /* below was an attempt to create a sticky button. I wanted to create a transparent button that would always show up on the screen but the code does not seem to cooperate. any 
-    help for why this is the case would be appreciated! :) */ 
-    
-    .sticky_button {
-    position: sticky; 
-    height: 50px;
-    width: 150px;
-    background-color:transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden; 
-    outline: none;
-    }
-
-    @media (max-width: 400px) 
-    
-    {
-
-        img {height: 350px;
-        margin-top: 300px;
+    .next_button:hover {
+        background-color:darkred;
+        color: #fff; 
         }
 
-    }
+        .container {
+            width: 75%;  
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 2px;
+            background-color: #c4c0c0;
+            padding: 20px;
+          }
 
-    /* The main thing that I wanted to achieve by using media queries was to make it so my images don't overlap with text (specifically in the contact page) when the screen gets
-    small. By adjusting the height and margins, I was able to achieve this! */ 
+
+input[type=text], select, textarea {
+    width: 75%; 
+    padding: 15px; 
+    border: 1px solid rgb(201, 197, 197); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    color: grey;
+  }
+
+
+  input[type=email]
+  {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(204, 204, 204); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    color: grey;
+  }
+  
+  
+  input[type=submit] 
+  {
+    background-color: grey;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   
+  
+  }
+  
+ 
+  input[type=submit]:hover 
+  {
+    background-color: darkred;
+  }
+
+  
+ 
+  
+  
+
+    
+    
 
     
   

@@ -10,70 +10,67 @@
 
 
 
-    <title> mi349_blog </title>
+    <title> mi349_final </title>
 
     
 </head>
 <body>
 
 
-    <h1 >Welcome to my Awesome Blog Part 3!</h1> 
-
     <form action="index.html" method="get">
-      <p> <button class="button">Home</button></p>
+      <p> <button class="next_button">Home</button></p>
      </form>
 
-     <form action="about.html" method="get">
-       <p> <button class="button">About Me</button></p>
-      </form>
+    <form action="contact.html" method="get">
+      <p> <button class="button">Contact</button></p>
+     </form>
 
-     <form action="contact.html" method="get">
-       <p> <button class="final_button">Contact</button></p>
-      </form>
+     <div class="card"> 
+      <img class="profile" id="Daniel" src="Daniel.jpg" alt="Daniel" />
+      <h1>Daniel 'Chives' Righter</h1>
+      <h2>Windows System Administrator & Video Game Expert</h2>
+      <ul class="contacts"> 
+          <ul><a href="https://lucid-mcnulty-78fc47.netlify.app/"><img src="Twitter.png" alt ="Twitter"></a></ul>
+          <ul><a href="https://lucid-mcnulty-78fc47.netlify.app/"><img src="Discord.png" alt ="Discord"></a></ul>
+          <ul><a href="https://lucid-mcnulty-78fc47.netlify.app/"><img src="YouTube.png" alt ="YouTube"></a></ul>
+      </ul> 
 
+    </div>
+
+    <h1>Contact</h1>
+    <p>If you would like to get in contact with me, regardless of the reason, you are more than welcome to do so! All you need to do is follow the prompt and fill out the information 
+      below. I'm looking forward to hearing from you!   
+    </p>
+
+
+
+
+     <div class="container">
+      <form action="index.html" method="get">
+    
+        <label for="Full Name"></label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your full name:" required>
+    
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Your email address:" required>
+    
+        <label for="reason"></label>
+        <select id="reason" name="reason">
+          <option value="Job Opportunity">Your reason for contact (Select one from below):</option>
+          <option value="Job Opportunity">Job Opportunity</option>
+          <option value="Need Video Game Lessons">Need Video Game Lessons</option>
+          <option value="Just Saying 'hi!'">Just Saying 'hi!'</option>
+        </select>
+    
+
+        <textarea id="subject" name="subject" placeholder="Please explain your situation" style="height: 150px;"></textarea>
+    
+        <br> 
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
      
-
-    <h2> Contact </h2>
-
-       
-    <p>If you need to contact me, please fill out the form below and submit it by pressing the <strong>submit</strong> button. 
-        Once your form is submitted, I will get back to you shortly! </p>
-
-
-         
-
-         <form action="index.html" method="get" >
-            <div>
-              <label for="name">Name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-            <div>
-              <label for="email">Email Address: </label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <div>
-                <label for="reasons">Reason for contact:</label>
-                    <select id="reasons" name="reasons">
-                        <option value="hi">Saying Hi</option>
-                        <option value="contractor">Looking for Contractor</option>
-                        <option value="interview">Interested in an Interview</option>
-                    </select>
-              </div>
-              <div>
-                <label for="comments">Put any additional information here: </label>
-                <textarea id="comments" name="comments" rows="4" cols="50"> </textarea>
-              </div>
-            <div>
-              <input type="submit" value="Submit">
-            </div>
-          </form>
-
-       
-
-
-        <div class="HAL"> <img src="GOOD_HAL_9000_MI349.png" alt="Good HAL"><p>GOOD HAL SAYS: "You can always count on my creator!"</p></div> 
-
-
    
 
    
