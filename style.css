@@ -1,0 +1,131 @@
+html  {background-color: rgb(248, 172, 32);}
+
+
+
+article
+{
+
+padding: 20px; 
+margin: 20px;
+
+
+}
+
+div.HAL
+{
+    position: relative;
+    top: -80px;
+    float: right;
+    margin-left: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    
+
+
+} 
+
+
+ 
+
+.button {
+
+    height: 50px;
+    width: 150px;
+    background-color:sienna;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    float:left;
+    margin-right: 5px;
+    display: inline;
+    
+
+}
+
+.final_button {
+
+    height: 50px;
+    width: 150px;
+    background-color:sienna;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    display: inline;
+
+}
+
+.button:hover {
+background-color:darkred;
+color: #fff; 
+}
+
+
+.final_button:hover {
+    background-color:darkred;
+    color: #fff; 
+    }
+
+
+body {
+
+    background-color: rgb(248, 172, 32);
+    font-family: 'Times New Roman', Times, serif; 
+    
+    
+
+    
+}
+
+p {line-height: 1.1em ;}
+
+#post { border-top: 1px dotted gray; }
+
+
+h2 {font-size: larger;}
+
+
+#comments { 
+    
+    position: relative;
+    top: 50px; }
+
+
+    input[type="submit"] {
+        padding: 2px 10px;
+        border: 1px solid #804040;
+        background:rgb(216, 81, 19); 
+        font-family: 'Times New Roman', Times, serif;
+        position: relative; 
+        top: 35px; 
+         
+    }
+    
+    /* below was an attempt to create a sticky button. I wanted to create a transparent button that would always show up on the screen but the code does not seem to cooperate. any 
+    help for why this is the case would be appreciated! :) */ 
+    
+    .sticky_button {
+    position: sticky; 
+    height: 50px;
+    width: 150px;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    outline: none;
+    }
+
+    @media (max-width: 400px) 
+    
+    {
+
+        img {height: 350px;
+        margin-top: 300px;
+        }
+
+    }
+
+    /* The main thing that I wanted to achieve by using media queries was to make it so my images don't overlap with text (specifically in the contact page) when the screen gets
+    small. By adjusting the height and margins, I was able to achieve this! */ 
+
+    
+  
