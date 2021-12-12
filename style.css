@@ -1,6 +1,6 @@
 body {
-    background: #1d1d27;
-    color: gray;
+    background: rgb(99, 94, 94);
+    color: rgb(27, 27, 27);
     font-family: 'Times New Roman', Times, serif;
     margin-top: 100px;
   }
@@ -14,7 +14,7 @@ img {
 
 .card {
 
-    background-color:rgb(104, 98, 98);
+    background-color: rgb(248, 246, 246);
     border-radius: 20px;
     margin: 0 auto;    
     width: 900px; 
@@ -74,7 +74,7 @@ h1 {
 
         margin: 15px; 
         font-weight: 100;
-       color: rgb(255, 255, 255);
+        color: rgb(31, 31, 31);
         
 
 }
@@ -84,7 +84,7 @@ h2 {
 
 margin: 0;
 font-weight: 100;
-color: rgb(180, 178, 178);
+color: rgb(31, 31, 31);
 
 
 }
